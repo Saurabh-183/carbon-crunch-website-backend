@@ -1,0 +1,2441 @@
+{
+  "scope": "Scope 3",
+  "Upstream": {
+    "Purchased Goods and Services": {
+      "Purchased Goods and Services": {
+        "label": "Purchased Goods and Services",
+        "categories": {
+          "Purchased Goods and Services": {
+            "Steel (Primary production – Blast Furnace/BOF)": {
+              "kg steel": {
+                "emissionFactor": 2.55,
+                "unit": "kgCO2e/kg steel"
+              }
+            },
+            "Steel (Secondary production – Electric Arc Furnace)": {
+              "kg steel": {
+                "emissionFactor": 0.85,
+                "unit": "kgCO2e/kg steel"
+              }
+            },
+            "Plastic (Polypropylene production)": {
+              "kg plastic": {
+                "emissionFactor": 1.9,
+                "unit": "kgCO2e/kg plastic"
+              }
+            },
+            "Plastic (Polyethylene production)": {
+              "kg plastic": {
+                "emissionFactor": 2.1,
+                "unit": "kgCO2e/kg plastic"
+              }
+            },
+            "Basic Chemicals (Ammonia production)": {
+              "kg ammonia": {
+                "emissionFactor": 1.6,
+                "unit": "kgCO2e/kg ammonia"
+              }
+            },
+            "Basic Chemicals (Methanol production)": {
+              "kg methanol": {
+                "emissionFactor": 1.37,
+                "unit": "kgCO2e/kg methanol"
+              }
+            },
+            "Generic Chemical manufacturing (organic chemicals)": {
+              "kg chemical": {
+                "emissionFactor": 1.25,
+                "unit": "kgCO2e/kg chemical"
+              }
+            },
+            "Aluminium (Primary production)": {
+              "kg aluminium": {
+                "emissionFactor": 16.5,
+                "unit": "kgCO2e/kg aluminium"
+              }
+            },
+            "Aluminium (Recycled)": {
+              "kg aluminium": {
+                "emissionFactor": 0.9,
+                "unit": "kgCO2e/kg aluminium"
+              }
+            },
+            "Copper production": {
+              "kg copper": {
+                "emissionFactor": 4,
+                "unit": "kgCO2e/kg copper"
+              }
+            },
+            "Cement (OPC)": {
+              "kg cement": {
+                "emissionFactor": 0.82,
+                "unit": "kgCO2e/kg cement"
+              }
+            },
+            "Ready Mix Concrete": {
+              "kg concrete": {
+                "emissionFactor": 0.13,
+                "unit": "kgCO2e/kg concrete"
+              }
+            },
+            "Glass production (flat glass)": {
+              "kg glass": {
+                "emissionFactor": 1.05,
+                "unit": "kgCO2e/kg glass"
+              }
+            },
+            "Paper production": {
+              "kg paper": {
+                "emissionFactor": 1.3,
+                "unit": "kgCO2e/kg paper"
+              }
+            },
+            "Corrugated cardboard": {
+              "kg cardboard": {
+                "emissionFactor": 0.94,
+                "unit": "kgCO2e/kg cardboard"
+              }
+            },
+            "Clay bricks": {
+              "kg bricks": {
+                "emissionFactor": 0.24,
+                "unit": "kgCO2e/kg bricks"
+              }
+            },
+            "PET plastic (bottle grade)": {
+              "kg PET": {
+                "emissionFactor": 2.7,
+                "unit": "kgCO2e/kg PET"
+              }
+            },
+            "PVC plastic": {
+              "kg PVC": {
+                "emissionFactor": 2.2,
+                "unit": "kgCO2e/kg PVC"
+              }
+            },
+            "HDPE plastic": {
+              "kg HDPE": {
+                "emissionFactor": 1.9,
+                "unit": "kgCO2e/kg HDPE"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Capital Goods": {
+      "Capital Goods": {
+        "label": "Capital Goods",
+        "categories": {
+          "Capital Goods": {
+            "Industrial machinery (steel dominated equipment)": {
+              "kg equipment": {
+                "emissionFactor": 2.55,
+                "unit": "kgCO2e/kg equipment"
+              }
+            },
+            "Manufacturing equipment (mixed metals average)": {
+              "kg equipment": {
+                "emissionFactor": 3.2,
+                "unit": "kgCO2e/kg equipment"
+              }
+            },
+            "Commercial building construction (reinforced concrete structure)": {
+              "kg building material": {
+                "emissionFactor": 0.18,
+                "unit": "kgCO2e/kg building material"
+              }
+            },
+            "Office building floor area": {
+              "m2 built-up area": {
+                "emissionFactor": 520,
+                "unit": "kgCO2e/m2 built-up area"
+              }
+            },
+            "Passenger vehicle manufacturing": {
+              "vehicle": {
+                "emissionFactor": 6000,
+                "unit": "kgCO2e/vehicle"
+              }
+            },
+            "Truck manufacturing": {
+              "truck": {
+                "emissionFactor": 18000,
+                "unit": "kgCO2e/truck"
+              }
+            },
+            "Laptop manufacturing": {
+              "laptop": {
+                "emissionFactor": 330,
+                "unit": "kgCO2e/laptop"
+              }
+            },
+            "Desktop computer manufacturing": {
+              "desktop": {
+                "emissionFactor": 420,
+                "unit": "kgCO2e/desktop"
+              }
+            },
+            "Server manufacturing": {
+              "server": {
+                "emissionFactor": 1200,
+                "unit": "kgCO2e/server"
+              }
+            },
+            "Industrial motor manufacturing": {
+              "kg motor": {
+                "emissionFactor": 6.1,
+                "unit": "kgCO2e/kg motor"
+              }
+            },
+            "Solar PV panels manufacturing": {
+              "kWp panel capacity": {
+                "emissionFactor": 950,
+                "unit": "kgCO2e/kWp panel capacity"
+              }
+            },
+            "Diesel generator manufacturing": {
+              "kg equipment": {
+                "emissionFactor": 4.8,
+                "unit": "kgCO2e/kg equipment"
+              }
+            },
+            "Industrial boiler manufacturing": {
+              "kg equipment": {
+                "emissionFactor": 4.5,
+                "unit": "kgCO2e/kg equipment"
+              }
+            },
+            "HVAC chiller manufacturing": {
+              "kg equipment": {
+                "emissionFactor": 5.2,
+                "unit": "kgCO2e/kg equipment"
+              }
+            },
+            "Pump manufacturing": {
+              "kg pump": {
+                "emissionFactor": 4.1,
+                "unit": "kgCO2e/kg pump"
+              }
+            },
+            "Transformer manufacturing": {
+              "kg transformer": {
+                "emissionFactor": 5.6,
+                "unit": "kgCO2e/kg transformer"
+              }
+            },
+            "Electrical cables": {
+              "kg cable": {
+                "emissionFactor": 2.9,
+                "unit": "kgCO2e/kg cable"
+              }
+            },
+            "Industrial battery (Lead-acid)": {
+              "kg battery": {
+                "emissionFactor": 1.7,
+                "unit": "kgCO2e/kg battery"
+              }
+            },
+            "Lithium-ion battery": {
+              "kg battery": {
+                "emissionFactor": 9.5,
+                "unit": "kgCO2e/kg battery"
+              }
+            },
+            "Forklift manufacturing": {
+              "unit": {
+                "emissionFactor": 8200,
+                "unit": "kgCO2e/unit"
+              }
+            },
+            "Conveyor system manufacturing": {
+              "kg equipment": {
+                "emissionFactor": 3.6,
+                "unit": "kgCO2e/kg equipment"
+              }
+            },
+            "Storage tank manufacturing": {
+              "kg tank": {
+                "emissionFactor": 2.55,
+                "unit": "kgCO2e/kg tank"
+              }
+            },
+            "CNC machine manufacturing": {
+              "kg equipment": {
+                "emissionFactor": 5.4,
+                "unit": "kgCO2e/kg equipment"
+              }
+            },
+            "Injection moulding machine": {
+              "kg equipment": {
+                "emissionFactor": 5.1,
+                "unit": "kgCO2e/kg equipment"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Fuel and Energy Related Activities": {
+      "Fuel and Energy Related Activities": {
+        "label": "Fuel and Energy Related Activities",
+        "categories": {
+          "Fuel and Energy Related Activities": {
+            "Diesel fuel – Well to Tank": {
+              "litre": {
+                "emissionFactor": 0.63,
+                "unit": "kgCO2e/litre"
+              }
+            },
+            "Petrol (Gasoline) – Well to Tank": {
+              "litre": {
+                "emissionFactor": 0.58,
+                "unit": "kgCO2e/litre"
+              }
+            },
+            "Natural Gas – Well to Tank": {
+              "Sm3": {
+                "emissionFactor": 0.42,
+                "unit": "kgCO2e/Sm3"
+              }
+            },
+            "LPG – Well to Tank": {
+              "kg LPG": {
+                "emissionFactor": 0.34,
+                "unit": "kgCO2e/kg LPG"
+              }
+            },
+            "Furnace Oil – Well to Tank": {
+              "litre": {
+                "emissionFactor": 0.48,
+                "unit": "kgCO2e/litre"
+              }
+            },
+            "Coal – Well to Tank": {
+              "kg coal": {
+                "emissionFactor": 0.12,
+                "unit": "kgCO2e/kg coal"
+              }
+            },
+            "Purchased Electricity – Transmission & Distribution Losses": {
+              "kWh": {
+                "emissionFactor": 0.09,
+                "unit": "kgCO2e/kWh"
+              }
+            },
+            "Steam purchased – upstream generation": {
+              "kg steam": {
+                "emissionFactor": 0.2,
+                "unit": "kgCO2e/kg steam"
+              }
+            },
+            "Aviation Turbine Fuel – Well to Tank": {
+              "litre": {
+                "emissionFactor": 0.72,
+                "unit": "kgCO2e/litre"
+              }
+            },
+            "Renewable electricity upstream (solar lifecycle)": {
+              "kWh": {
+                "emissionFactor": 0.05,
+                "unit": "kgCO2e/kWh"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Upstream Transportation & Distribution": {
+      "Upstream Transportation & Distribution": {
+        "label": "Upstream Transportation & Distribution",
+        "categories": {
+          "Upstream Transportation & Distribution": {
+            "Road freight – Heavy duty truck (>16T)": {
+              "tonne-km": {
+                "emissionFactor": 0.096,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Road freight – Medium truck (7.5–16T)": {
+              "tonne-km": {
+                "emissionFactor": 0.129,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Road freight – Light commercial vehicle (<3.5T)": {
+              "tonne-km": {
+                "emissionFactor": 0.221,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Rail freight (diesel traction)": {
+              "tonne-km": {
+                "emissionFactor": 0.024,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Rail freight (electric traction)": {
+              "tonne-km": {
+                "emissionFactor": 0.015,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Coastal shipping freight": {
+              "tonne-km": {
+                "emissionFactor": 0.015,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Ocean container shipping": {
+              "tonne-km": {
+                "emissionFactor": 0.008,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Air freight (long haul cargo aircraft)": {
+              "tonne-km": {
+                "emissionFactor": 0.602,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Courier / express parcel delivery": {
+              "tonne-km": {
+                "emissionFactor": 0.48,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Refrigerated transport (reefer truck)": {
+              "tonne-km": {
+                "emissionFactor": 0.14,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Pipeline transport (natural gas)": {
+              "tonne-km": {
+                "emissionFactor": 0.003,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Road transport – average truck (unknown capacity)": {
+              "tonne-km": {
+                "emissionFactor": 0.12,
+                "unit": "kgCO2e/tonne-km"
+              }
+            },
+            "Road transport – per vehicle km (heavy truck)": {
+              "vehicle-km": {
+                "emissionFactor": 0.89,
+                "unit": "kgCO2e/vehicle-km"
+              }
+            },
+            "Road transport – delivery van / tempo": {
+              "vehicle-km": {
+                "emissionFactor": 0.34,
+                "unit": "kgCO2e/vehicle-km"
+              }
+            },
+            "Courier shipment (per package)": {
+              "shipment": {
+                "emissionFactor": 1.8,
+                "unit": "kgCO2e/shipment"
+              }
+            },
+            "Container shipping (20 ft container)": {
+              "container per 1000 km": {
+                "emissionFactor": 85,
+                "unit": "kgCO2e/container per 1000 km"
+              }
+            },
+            "Container shipping (40 ft container)": {
+              "container per 1000 km": {
+                "emissionFactor": 140,
+                "unit": "kgCO2e/container per 1000 km"
+              }
+            },
+            "Third-party warehouse storage": {
+              "pallet per day": {
+                "emissionFactor": 7.5,
+                "unit": "kgCO2e/pallet per day"
+              }
+            },
+            "Multimodal transport average": {
+              "tonne-km": {
+                "emissionFactor": 0.085,
+                "unit": "kgCO2e/tonne-km"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Waste Generated in Operations": {
+      "Waste Generated in Operations": {
+        "label": "Waste Generated in Operations",
+        "categories": {
+          "Waste Generated in Operations": {
+            "Municipal solid waste to landfill (mixed waste)": {
+              "kg waste": {
+                "emissionFactor": 1.2,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Food waste landfill disposal": {
+              "kg waste": {
+                "emissionFactor": 1.9,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Paper waste landfill": {
+              "kg waste": {
+                "emissionFactor": 1.3,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Plastic waste landfill": {
+              "kg waste": {
+                "emissionFactor": 0.05,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Waste incineration (municipal waste)": {
+              "kg waste": {
+                "emissionFactor": 0.7,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Recycling – paper": {
+              "kg waste": {
+                "emissionFactor": 0.15,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Recycling – plastic": {
+              "kg waste": {
+                "emissionFactor": 0.25,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Recycling – metal": {
+              "kg waste": {
+                "emissionFactor": 0.18,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Composting of organic waste": {
+              "kg waste": {
+                "emissionFactor": 0.1,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Wastewater treatment (industrial effluent)": {
+              "m3 wastewater": {
+                "emissionFactor": 0.55,
+                "unit": "kgCO2e/m3 wastewater"
+              }
+            },
+            "Hazardous waste incineration": {
+              "kg waste": {
+                "emissionFactor": 1.6,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Biomedical waste treatment": {
+              "kg waste": {
+                "emissionFactor": 1.1,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "E-waste recycling": {
+              "kg waste": {
+                "emissionFactor": 0.35,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Construction & demolition waste landfill": {
+              "kg waste": {
+                "emissionFactor": 0.02,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Waste to RDF (Refuse Derived Fuel)": {
+              "kg waste": {
+                "emissionFactor": 0.45,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Co-processing in cement kiln": {
+              "kg waste": {
+                "emissionFactor": 0.18,
+                "unit": "kgCO2e/kg waste"
+              }
+            },
+            "Sewage treatment (aerobic STP)": {
+              "m3 wastewater": {
+                "emissionFactor": 0.45,
+                "unit": "kgCO2e/m3 wastewater"
+              }
+            },
+            "Sewage treatment (anaerobic digestion)": {
+              "m3 wastewater": {
+                "emissionFactor": 0.75,
+                "unit": "kgCO2e/m3 wastewater"
+              }
+            },
+            "Industrial sludge disposal": {
+              "kg sludge": {
+                "emissionFactor": 0.28,
+                "unit": "kgCO2e/kg sludge"
+              }
+            },
+            "Used lubricating oil recycling": {
+              "litre oil": {
+                "emissionFactor": 0.32,
+                "unit": "kgCO2e/litre oil"
+              }
+            },
+            "Lead acid battery recycling": {
+              "kg battery": {
+                "emissionFactor": 0.4,
+                "unit": "kgCO2e/kg battery"
+              }
+            },
+            "Tyre recycling / pyrolysis": {
+              "kg tyre": {
+                "emissionFactor": 0.85,
+                "unit": "kgCO2e/kg tyre"
+              }
+            },
+            "Construction - Aggregates - Open-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Aggregates - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Aggregates - Landfill": {
+              "tonne": {
+                "emissionFactor": 1.26338,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Average construction - Open-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Average construction - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Average construction - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Asbestos - Landfill": {
+              "tonne": {
+                "emissionFactor": 5.9416,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Asphalt - Open-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Asphalt - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Asphalt - Landfill": {
+              "tonne": {
+                "emissionFactor": 1.26338,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Bricks - Open-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Bricks - Landfill": {
+              "tonne": {
+                "emissionFactor": 1.26338,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Concrete - Open-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Concrete - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Concrete - Landfill": {
+              "tonne": {
+                "emissionFactor": 1.26338,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Insulation - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Insulation - Landfill": {
+              "tonne": {
+                "emissionFactor": 1.26338,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Metals - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Metals - Landfill": {
+              "tonne": {
+                "emissionFactor": 1.26435,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Soils - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 1.00835,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Soils - Landfill": {
+              "tonne": {
+                "emissionFactor": 19.54671,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Mineral oil - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Mineral oil - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Plasterboard - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Plasterboard - Landfill": {
+              "tonne": {
+                "emissionFactor": 71.95,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Tyres - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Wood - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Wood - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Wood - Composting": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Construction - Wood - Landfill": {
+              "tonne": {
+                "emissionFactor": 925.34348,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Books - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Books - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Books - Composting": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Books - Landfill": {
+              "tonne": {
+                "emissionFactor": 1164.4894,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Glass - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Glass - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Glass - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Glass - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Clothing - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Clothing - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Other - Clothing - Landfill": {
+              "tonne": {
+                "emissionFactor": 496.78228,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Household residual waste - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Household residual waste - Landfill": {
+              "tonne": {
+                "emissionFactor": 497.24244,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: food and drink waste - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: food and drink waste - Composting": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: food and drink waste - Landfill": {
+              "tonne": {
+                "emissionFactor": 700.30886,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: food and drink waste - Anaerobic digestion": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: garden waste - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: garden waste - Composting": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: garden waste - Landfill": {
+              "tonne": {
+                "emissionFactor": 646.70557,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: garden waste - Anaerobic digestion": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: mixed food and garden waste - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: mixed food and garden waste - Composting": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: mixed food and garden waste - Landfill": {
+              "tonne": {
+                "emissionFactor": 656.08614,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Organic: mixed food and garden waste - Anaerobic digestion": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Commercial and industrial waste - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Refuse - Commercial and industrial waste - Landfill": {
+              "tonne": {
+                "emissionFactor": 520.5327,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - fridges and freezers - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - fridges and freezers - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - large - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - large - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - large - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - mixed - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - mixed - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - mixed - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - small - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - small - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - WEEE - small - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - Batteries - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Electrical items - Batteries - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: aluminium cans and foil (excl. forming) - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: aluminium cans and foil (excl. forming) - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: aluminium cans and foil (excl. forming) - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: aluminium cans and foil (excl. forming) - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: mixed cans - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: mixed cans - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: mixed cans - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: mixed cans - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: scrap metal - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: scrap metal - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: scrap metal - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: scrap metal - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: steel cans - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: steel cans - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: steel cans - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Metal - Metal: steel cans - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastics - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastics - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastics - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastics - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastic film - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastic film - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastic film - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastic film - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastic rigid - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastic rigid - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastic rigid - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: average plastic rigid - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: HDPE (incl. forming) - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: HDPE (incl. forming) - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: HDPE (incl. forming) - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: HDPE (incl. forming) - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: LDPE and LLDPE (incl. forming) - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: LDPE and LLDPE (incl. forming) - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: LDPE and LLDPE (incl. forming) - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: LDPE and LLDPE (incl. forming) - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PET (incl. forming) - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PET (incl. forming) - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PET (incl. forming) - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PET (incl. forming) - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PP (incl. forming) - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PP (incl. forming) - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PP (incl. forming) - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PP (incl. forming) - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PS (incl. forming) - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PS (incl. forming) - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PS (incl. forming) - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PS (incl. forming) - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PVC (incl. forming) - Open-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PVC (incl. forming) - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PVC (incl. forming) - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Plastic - Plastics: PVC (incl. forming) - Landfill": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: board - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: board - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: board - Composting": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: board - Landfill": {
+              "tonne": {
+                "emissionFactor": 1164.4894,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: mixed - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: mixed - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: mixed - Composting": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: mixed - Landfill": {
+              "tonne": {
+                "emissionFactor": 1164.4894,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: paper - Closed-loop": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: paper - Incineration with energy recovery": {
+              "tonne": {
+                "emissionFactor": 4.68568,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: paper - Composting": {
+              "tonne": {
+                "emissionFactor": 8.98311,
+                "unit": "kgCO2e/tonne"
+              }
+            },
+            "Paper - Paper and board: paper - Landfill": {
+              "tonne": {
+                "emissionFactor": 1164.4894,
+                "unit": "kgCO2e/tonne"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Business Travel": {
+      "Business Travel": {
+        "label": "Business Travel",
+        "categories": {
+          "Business Travel": {
+            "Domestic flight (economy class)": {
+              "passenger-km": {
+                "emissionFactor": 0.115,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Short haul flight (<1500 km)": {
+              "passenger-km": {
+                "emissionFactor": 0.158,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Long haul flight (>1500 km)": {
+              "passenger-km": {
+                "emissionFactor": 0.195,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Rail travel (Indian Railways electric)": {
+              "passenger-km": {
+                "emissionFactor": 0.015,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Rail travel (diesel traction)": {
+              "passenger-km": {
+                "emissionFactor": 0.041,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Metro rail travel": {
+              "passenger-km": {
+                "emissionFactor": 0.032,
+                "unit": "kgCO2e/passenger-km"
+              },
+              "kg CO₂e/passenger-km": {
+                "emissionFactor": 0.018,
+                "unit": "kgCO2e/kg CO₂e/passenger-km"
+              }
+            },
+            "Intercity bus": {
+              "passenger-km": {
+                "emissionFactor": 0.089,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Taxi / ride-hailing (petrol car)": {
+              "passenger-km": {
+                "emissionFactor": 0.18,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Rental car (self drive)": {
+              "vehicle-km": {
+                "emissionFactor": 0.21,
+                "unit": "kgCO2e/vehicle-km"
+              }
+            },
+            "Hotel stay (business hotel)": {
+              "room-night": {
+                "emissionFactor": 18,
+                "unit": "kgCO2e/room-night"
+              }
+            },
+            "Hotel stay (luxury hotel)": {
+              "room-night": {
+                "emissionFactor": 32,
+                "unit": "kgCO2e/room-night"
+              }
+            },
+            "Travel spend based (fallback)": {
+              "INR spent": {
+                "emissionFactor": 0.14,
+                "unit": "kgCO2e/INR spent"
+              }
+            },
+            "Ferry passenger travel": {
+              "passenger-km": {
+                "emissionFactor": 0.115,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Passenger ship / boat transport": {
+              "passenger-km": {
+                "emissionFactor": 0.13,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Domestic train travel (AC chair car)": {
+              "kg CO₂e/passenger-km": {
+                "emissionFactor": 0.025,
+                "unit": "kgCO2e/kg CO₂e/passenger-km"
+              }
+            },
+            "Domestic train travel (AC 3-tier)": {
+              "kg CO₂e/passenger-km": {
+                "emissionFactor": 0.035,
+                "unit": "kgCO2e/kg CO₂e/passenger-km"
+              }
+            },
+            "Domestic train travel (AC 2-tier)": {
+              "kg CO₂e/passenger-km": {
+                "emissionFactor": 0.045,
+                "unit": "kgCO2e/kg CO₂e/passenger-km"
+              }
+            },
+            "Domestic train travel (AC 1st class)": {
+              "kg CO₂e/passenger-km": {
+                "emissionFactor": 0.06,
+                "unit": "kgCO2e/kg CO₂e/passenger-km"
+              }
+            },
+            "Non-AC train travel": {
+              "kg CO₂e/passenger-km": {
+                "emissionFactor": 0.015,
+                "unit": "kgCO2e/kg CO₂e/passenger-km"
+              }
+            },
+            "Intercity bus travel (AC)": {
+              "kg CO₂e/passenger-km": {
+                "emissionFactor": 0.045,
+                "unit": "kgCO2e/kg CO₂e/passenger-km"
+              }
+            },
+            "Intercity bus travel (non-AC)": {
+              "kg CO₂e/passenger-km": {
+                "emissionFactor": 0.035,
+                "unit": "kgCO2e/kg CO₂e/passenger-km"
+              }
+            },
+            "Local bus travel": {
+              "kg CO₂e/passenger-km": {
+                "emissionFactor": 0.03,
+                "unit": "kgCO2e/kg CO₂e/passenger-km"
+              }
+            },
+            "Company car (petrol)": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.172,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            },
+            "Company car (diesel)": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.148,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            },
+            "Company car (CNG)": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.11,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            },
+            "Company SUV (petrol)": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.21,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            },
+            "Company SUV (diesel)": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.18,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            },
+            "Taxi/ride-hailing (petrol)": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.185,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            },
+            "Taxi/ride-hailing (diesel)": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.16,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            },
+            "Auto-rickshaw (CNG)": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.08,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            },
+            "Motorcycle (business use)": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.072,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            },
+            "Electric vehicle (company car)": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.082,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            },
+            "Electric taxi/ride-hailing": {
+              "kg CO₂e/km": {
+                "emissionFactor": 0.089,
+                "unit": "kgCO2e/kg CO₂e/km"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Employee Commuting": {
+      "Employee Commuting": {
+        "label": "Employee Commuting",
+        "categories": {
+          "Employee Commuting": {
+            "Two-wheeler (motorbike/scooter)": {
+              "passenger-km": {
+                "emissionFactor": 0.072,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Petrol car (single occupancy)": {
+              "passenger-km": {
+                "emissionFactor": 0.192,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Diesel car": {
+              "passenger-km": {
+                "emissionFactor": 0.171,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Carpool (2 persons)": {
+              "passenger-km": {
+                "emissionFactor": 0.096,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "App-based cab (Ola/Uber pooled)": {
+              "passenger-km": {
+                "emissionFactor": 0.11,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Company bus / staff bus": {
+              "passenger-km": {
+                "emissionFactor": 0.055,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Public city bus": {
+              "passenger-km": {
+                "emissionFactor": 0.089,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Metro rail": {
+              "passenger-km": {
+                "emissionFactor": 0.032,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Suburban rail": {
+              "passenger-km": {
+                "emissionFactor": 0.015,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Auto-rickshaw (CNG)": {
+              "passenger-km": {
+                "emissionFactor": 0.082,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Bicycle": {
+              "passenger-km": {
+                "emissionFactor": 0,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Walking": {
+              "passenger-km": {
+                "emissionFactor": 0,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Electric car": {
+              "passenger-km": {
+                "emissionFactor": 0.028,
+                "unit": "kgCO2e/passenger-km"
+              }
+            },
+            "Work From Home": {
+              "employee-day": {
+                "emissionFactor": 0.333,
+                "unit": "kgCO2e/employee-day"
+              }
+            },
+            "Employee commuting (unknown mode fallback)": {
+              "passenger-km": {
+                "emissionFactor": 0.11,
+                "unit": "kgCO2e/passenger-km"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Upstream Leased Assets": {
+      "Upstream Leased Assets": {
+        "label": "Upstream Leased Assets",
+        "categories": {
+          "Upstream Leased Assets": {
+            "Leased office space (commercial building)": {
+              "m2 per year": {
+                "emissionFactor": 82,
+                "unit": "kgCO2e/m2 per year"
+              }
+            },
+            "Leased warehouse (non-refrigerated)": {
+              "m2 per year": {
+                "emissionFactor": 38,
+                "unit": "kgCO2e/m2 per year"
+              }
+            },
+            "Cold storage warehouse": {
+              "m2 per year": {
+                "emissionFactor": 210,
+                "unit": "kgCO2e/m2 per year"
+              }
+            },
+            "Leased retail store": {
+              "m2 per year": {
+                "emissionFactor": 145,
+                "unit": "kgCO2e/m2 per year"
+              }
+            },
+            "Co-working office space": {
+              "seat per year": {
+                "emissionFactor": 95,
+                "unit": "kgCO2e/seat per year"
+              }
+            },
+            "Leased industrial plant building": {
+              "m2 per year": {
+                "emissionFactor": 120,
+                "unit": "kgCO2e/m2 per year"
+              }
+            },
+            "Leased server room / data center space": {
+              "m2 per year": {
+                "emissionFactor": 650,
+                "unit": "kgCO2e/m2 per year"
+              }
+            },
+            "Leased passenger vehicle": {
+              "km": {
+                "emissionFactor": 0.192,
+                "unit": "kgCO2e/km"
+              }
+            },
+            "Leased forklift": {
+              "operating hour": {
+                "emissionFactor": 2.1,
+                "unit": "kgCO2e/operating hour"
+              }
+            },
+            "Leased generator set": {
+              "kWh generated": {
+                "emissionFactor": 0.27,
+                "unit": "kgCO2e/kWh generated"
+              }
+            },
+            "Leased manufacturing equipment": {
+              "kg equipment per year": {
+                "emissionFactor": 5,
+                "unit": "kgCO2e/kg equipment per year"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Business Travel – Air Transport": {
+      "Business Travel – Air Transport": {
+        "label": "Business Travel – Air Transport",
+        "categories": {
+          "Business Travel – Air Transport": {
+            "Flight (with RF)": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.18567,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Flight (without RF)": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.10922,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Upstream & Downstream Transportation": {
+      "Upstream & Downstream Transportation": {
+        "label": "Upstream & Downstream Transportation",
+        "categories": {
+          "Upstream & Downstream Transportation": {
+            "Van – Diesel": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.62715,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Van – Petrol": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.85297,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Van – CNG": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.61964,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Van – LPG": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.68486,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Van – Plug-in Hybrid Electric Vehicle (PHEV)": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.36487,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Van – Battery Electric Vehicle (BEV)": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.21748,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "HGV – All Diesel": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.35979,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "HGV – Refrigerated (All Diesel)": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.29254,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Business Travel – Accommodation": {
+      "Business Travel – Accommodation": {
+        "label": "Business Travel – Accommodation",
+        "categories": {
+          "Business Travel – Accommodation": {
+            "Hotel Stay": {
+              "kg CO₂e per room-night": {
+                "emissionFactor": 58.9,
+                "unit": "kgCO2e/kg CO₂e per room-night"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Upstream & Downstream Transportation – Maritime": {
+      "Upstream & Downstream Transportation – Maritime": {
+        "label": "Upstream & Downstream Transportation – Maritime",
+        "categories": {
+          "Upstream & Downstream Transportation – Maritime": {
+            "Sea Chemical Tanker": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.00451,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Sea Products Tanker": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.00891,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Sea Chemical Tanker (Alt.)": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.01018,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Sea LNG Tanker": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.01139,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Sea LPG Tanker": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.01024,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Bulk Carrier Cargo Ship": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.00349,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "General Cargo Ship": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.01305,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Container Ship": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.01592,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Vehicle Transport Cargo Ship": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.03805,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "RoRo Ferry": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.05095,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Large RoPax Ferry": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.3715,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Refrigerated Cargo (Sea)": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.0129,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            },
+            "Ferry": {
+              "kg CO₂e per tonne-km": {
+                "emissionFactor": 0.11131,
+                "unit": "kgCO2e/kg CO₂e per tonne-km"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Purchased Goods & Services – Water": {
+      "Purchased Goods & Services – Water": {
+        "label": "Purchased Goods & Services – Water",
+        "categories": {
+          "Purchased Goods & Services – Water": {
+            "Water Supply": {
+              "kg CO₂e per cubic metre": {
+                "emissionFactor": 0.1913,
+                "unit": "kgCO2e/kg CO₂e per cubic metre"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Purchased Goods & Services – Water & Wastewater": {
+      "Purchased Goods & Services – Water & Wastewater": {
+        "label": "Purchased Goods & Services – Water & Wastewater",
+        "categories": {
+          "Purchased Goods & Services – Water & Wastewater": {
+            "Water Treatment": {
+              "kg CO₂e per cubic metre": {
+                "emissionFactor": 0.17088,
+                "unit": "kgCO2e/kg CO₂e per cubic metre"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Business Travel – Road": {
+      "Business Travel – Road": {
+        "label": "Business Travel – Road",
+        "categories": {
+          "Business Travel – Road": {
+            "Cars – Mini": {
+              "kg CO₂e / km": {
+                "emissionFactor": 0.00002,
+                "unit": "kgCO2e/kg CO₂e / km"
+              }
+            },
+            "Cars – Supermini": {
+              "kg CO₂e / km": {
+                "emissionFactor": 0.00002,
+                "unit": "kgCO2e/kg CO₂e / km"
+              }
+            },
+            "Cars – Lower Medium": {
+              "kg CO₂e / km": {
+                "emissionFactor": 0.00365,
+                "unit": "kgCO2e/kg CO₂e / km"
+              }
+            },
+            "Cars – Upper Medium": {
+              "kg CO₂e / km": {
+                "emissionFactor": 0.00396,
+                "unit": "kgCO2e/kg CO₂e / km"
+              }
+            },
+            "Cars – Executive": {
+              "kg CO₂e / km": {
+                "emissionFactor": 0.00352,
+                "unit": "kgCO2e/kg CO₂e / km"
+              }
+            },
+            "Cars – Luxury": {
+              "kg CO₂e / km": {
+                "emissionFactor": 0.00465,
+                "unit": "kgCO2e/kg CO₂e / km"
+              }
+            },
+            "Cars – Sports": {
+              "kg CO₂e / km": {
+                "emissionFactor": 0.00593,
+                "unit": "kgCO2e/kg CO₂e / km"
+              }
+            },
+            "Cars – Dual Purpose 4×4": {
+              "kg CO₂e / km": {
+                "emissionFactor": 0.00401,
+                "unit": "kgCO2e/kg CO₂e / km"
+              }
+            },
+            "Cars – MPV": {
+              "kg CO₂e / km": {
+                "emissionFactor": 0.00493,
+                "unit": "kgCO2e/kg CO₂e / km"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Fuel & Energy Related Activities (WTT)": {
+      "Fuel & Energy Related Activities (WTT)": {
+        "label": "Fuel & Energy Related Activities (WTT)",
+        "categories": {
+          "Fuel & Energy Related Activities (WTT)": {
+            "Electricity – T&D Losses": {
+              "kg CO₂e / kWh": {
+                "emissionFactor": 0.18,
+                "unit": "kgCO2e/kg CO₂e / kWh"
+              }
+            },
+            "WTT – Electricity (Generation)": {
+              "kg CO₂e / kWh": {
+                "emissionFactor": 0.082,
+                "unit": "kgCO2e/kg CO₂e / kWh"
+              }
+            },
+            "WTT – Heat & Steam (Onsite)": {
+              "kg CO₂e / kWh": {
+                "emissionFactor": 0.03341,
+                "unit": "kgCO2e/kg CO₂e / kWh"
+              }
+            },
+            "WTT – Heat & Steam (District)": {
+              "kg CO₂e / kWh": {
+                "emissionFactor": 0.03341,
+                "unit": "kgCO2e/kg CO₂e / kWh"
+              }
+            },
+            "WTT – District Heat & Steam Distribution Losses (5%)": {
+              "kg CO₂e / kWh": {
+                "emissionFactor": 0.00176,
+                "unit": "kgCO2e/kg CO₂e / kWh"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Category 14 – Franchises": {
+      "Category 14 – Franchises": {
+        "label": "Category 14 – Franchises",
+        "categories": {
+          "Category 14 – Franchises": {
+            "Diesel Use in DG Sets (Franchise Operations)": {
+              "kg CO₂e per litre diesel": {
+                "emissionFactor": 2.68,
+                "unit": "kgCO2e/kg CO₂e per litre diesel"
+              }
+            },
+            "LPG / PNG Use for Cooking & Heating": {
+              "kg CO₂e per kg LPG": {
+                "emissionFactor": 2.98,
+                "unit": "kgCO2e/kg CO₂e per kg LPG"
+              }
+            },
+            "Water Consumption & Wastewater Treatment": {
+              "kg CO₂e per m³": {
+                "emissionFactor": 0.17088,
+                "unit": "kgCO2e/kg CO₂e per m³"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Downstream": {
+    "Use of Sold Products": {
+      "Use of Sold Products": {
+        "label": "Use of Sold Products",
+        "categories": {
+          "Use of Sold Products": {
+            "Electricity consumption by sold electrical product": {
+              "kWh": {
+                "emissionFactor": 0.82,
+                "unit": "kgCO2e/kWh"
+              }
+            },
+            "Air conditioner electricity usage": {
+              "kWh": {
+                "emissionFactor": 0.82,
+                "unit": "kgCO2e/kWh"
+              }
+            },
+            "Refrigerator electricity usage": {
+              "kWh": {
+                "emissionFactor": 0.82,
+                "unit": "kgCO2e/kWh"
+              }
+            },
+            "Electric motor operation": {
+              "kWh": {
+                "emissionFactor": 0.82,
+                "unit": "kgCO2e/kWh"
+              }
+            },
+            "Electric vehicle charging": {
+              "kWh": {
+                "emissionFactor": 0.82,
+                "unit": "kgCO2e/kWh"
+              }
+            },
+            "Battery charging losses (consumer electronics)": {
+              "kWh": {
+                "emissionFactor": 0.82,
+                "unit": "kgCO2e/kWh"
+              }
+            },
+            "Standby electricity consumption (electronics)": {
+              "kWh": {
+                "emissionFactor": 0.82,
+                "unit": "kgCO2e/kWh"
+              }
+            },
+            "Water purifier electricity usage": {
+              "kWh": {
+                "emissionFactor": 0.82,
+                "unit": "kgCO2e/kWh"
+              }
+            },
+            "LPG stove usage": {
+              "kg LPG": {
+                "emissionFactor": 2.98,
+                "unit": "kgCO2e/kg LPG"
+              }
+            },
+            "Petrol powered equipment": {
+              "litre petrol": {
+                "emissionFactor": 2.31,
+                "unit": "kgCO2e/litre petrol"
+              }
+            },
+            "Diesel powered equipment": {
+              "litre diesel": {
+                "emissionFactor": 2.68,
+                "unit": "kgCO2e/litre diesel"
+              }
+            },
+            "Natural gas appliance usage": {
+              "Sm3": {
+                "emissionFactor": 2.02,
+                "unit": "kgCO2e/Sm3"
+              }
+            },
+            "Petrol vehicle operation (sold vehicle use)": {
+              "litre petrol": {
+                "emissionFactor": 2.31,
+                "unit": "kgCO2e/litre petrol"
+              }
+            },
+            "Diesel vehicle operation (sold vehicle use)": {
+              "litre diesel": {
+                "emissionFactor": 2.68,
+                "unit": "kgCO2e/litre diesel"
+              }
+            },
+            "Industrial boiler sold to customer": {
+              "Sm3 natural gas": {
+                "emissionFactor": 2.02,
+                "unit": "kgCO2e/Sm3 natural gas"
+              }
+            },
+            "Heated water consumption (appliance use)": {
+              "litre hot water": {
+                "emissionFactor": 0.18,
+                "unit": "kgCO2e/litre hot water"
+              }
+            },
+            "Detergent use during product operation": {
+              "kg detergent": {
+                "emissionFactor": 1.2,
+                "unit": "kgCO2e/kg detergent"
+              }
+            },
+            "Ink / toner cartridge use": {
+              "cartridge": {
+                "emissionFactor": 4.8,
+                "unit": "kgCO2e/cartridge"
+              }
+            },
+            "Lubricant consumption during equipment use": {
+              "litre lubricant": {
+                "emissionFactor": 3.1,
+                "unit": "kgCO2e/litre lubricant"
+              }
+            },
+            "Tyre wear during vehicle use": {
+              "vehicle-km": {
+                "emissionFactor": 0.09,
+                "unit": "kgCO2e/vehicle-km"
+              }
+            },
+            "R134a refrigerant leakage": {
+              "kg refrigerant": {
+                "emissionFactor": 1430,
+                "unit": "kgCO2e/kg refrigerant"
+              }
+            },
+            "R410A refrigerant leakage": {
+              "kg refrigerant": {
+                "emissionFactor": 2088,
+                "unit": "kgCO2e/kg refrigerant"
+              }
+            },
+            "R32 refrigerant leakage": {
+              "kg refrigerant": {
+                "emissionFactor": 675,
+                "unit": "kgCO2e/kg refrigerant"
+              }
+            },
+            "R22 refrigerant leakage": {
+              "kg refrigerant": {
+                "emissionFactor": 1810,
+                "unit": "kgCO2e/kg refrigerant"
+              }
+            },
+            "R404A refrigerant leakage": {
+              "kg refrigerant": {
+                "emissionFactor": 4728,
+                "unit": "kgCO2e/kg refrigerant"
+              }
+            },
+            "R407C refrigerant leakage": {
+              "kg refrigerant": {
+                "emissionFactor": 1774,
+                "unit": "kgCO2e/kg refrigerant"
+              }
+            },
+            "R290 refrigerant leakage": {
+              "kg refrigerant": {
+                "emissionFactor": 3,
+                "unit": "kgCO2e/kg refrigerant"
+              }
+            },
+            "R600a refrigerant leakage": {
+              "kg refrigerant": {
+                "emissionFactor": 3,
+                "unit": "kgCO2e/kg refrigerant"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Downstream Leased Assets": {
+      "Downstream Leased Assets": {
+        "label": "Downstream Leased Assets",
+        "categories": {
+          "Downstream Leased Assets": {
+            "Electricity consumption in leased commercial buildings": {
+              "kg CO₂/kWh": {
+                "emissionFactor": 0.708,
+                "unit": "kgCO2e/kg CO₂/kWh"
+              }
+            },
+            "State-specific electricity (example: Maharashtra)": {
+              "kg CO₂/kWh": {
+                "emissionFactor": 0.82,
+                "unit": "kgCO2e/kg CO₂/kWh"
+              }
+            },
+            "Diesel consumption in leased assets (genset/vehicles)": {
+              "kg CO₂/litre": {
+                "emissionFactor": 2.68,
+                "unit": "kgCO2e/kg CO₂/litre"
+              }
+            },
+            "Petrol consumption in leased vehicles": {
+              "kg CO₂/litre": {
+                "emissionFactor": 2.31,
+                "unit": "kgCO2e/kg CO₂/litre"
+              }
+            },
+            "PNG/Natural Gas usage in leased facilities": {
+              "kg CO₂/Sm³": {
+                "emissionFactor": 2.02,
+                "unit": "kgCO2e/kg CO₂/Sm³"
+              }
+            },
+            "LPG usage in leased sites": {
+              "kg CO₂/kg": {
+                "emissionFactor": 2.98,
+                "unit": "kgCO2e/kg CO₂/kg"
+              }
+            },
+            "Municipal Solid Waste (landfilled) from leased sites": {
+              "tCO₂e/tonne waste": {
+                "emissionFactor": 1.2,
+                "unit": "kgCO2e/tCO₂e/tonne waste"
+              }
+            },
+            "Waste-to-Energy (incineration)": {
+              "tCO₂e/tonne waste": {
+                "emissionFactor": 0.7,
+                "unit": "kgCO2e/tCO₂e/tonne waste"
+              }
+            },
+            "Wastewater treatment (commercial building)": {
+              "kg CO₂e/m³": {
+                "emissionFactor": 0.708,
+                "unit": "kgCO2e/kg CO₂e/m³"
+              }
+            }
+          }
+        }
+      }
+    },
+    "End-of-Life Treatment of Sold Products": {
+      "End-of-Life Treatment of Sold Products": {
+        "label": "End-of-Life Treatment of Sold Products",
+        "categories": {
+          "End-of-Life Treatment of Sold Products": {
+            "Municipal Solid Waste – Landfilling (Mixed Waste)": {
+              "tCO₂e/tonne waste": {
+                "emissionFactor": 1.2,
+                "unit": "kgCO2e/tCO₂e/tonne waste"
+              }
+            },
+            "Composting of Organic Waste": {
+              "tCO₂e/tonne waste": {
+                "emissionFactor": 0.25,
+                "unit": "kgCO2e/tCO₂e/tonne waste"
+              }
+            },
+            "Waste-to-Energy (Incineration – MSW)": {
+              "tCO₂e/tonne waste": {
+                "emissionFactor": 0.7,
+                "unit": "kgCO2e/tCO₂e/tonne waste"
+              }
+            },
+            "Recycling – Plastic Waste": {
+              "tCO₂e/tonne waste": {
+                "emissionFactor": 0.15,
+                "unit": "kgCO2e/tCO₂e/tonne waste"
+              }
+            },
+            "Recycling – Steel": {
+              "tCO₂e/tonne waste": {
+                "emissionFactor": 0.4,
+                "unit": "kgCO2e/tCO₂e/tonne waste"
+              }
+            },
+            "Recycling – Aluminium": {
+              "tCO₂e/tonne waste": {
+                "emissionFactor": 0.6,
+                "unit": "kgCO2e/tCO₂e/tonne waste"
+              }
+            },
+            "Paper & Cardboard Landfill": {
+              "tCO₂e/tonne waste": {
+                "emissionFactor": 1.5,
+                "unit": "kgCO2e/tCO₂e/tonne waste"
+              }
+            },
+            "Wastewater Treatment – Industrial Product Residue": {
+              "kg CO₂e/m³": {
+                "emissionFactor": 0.708,
+                "unit": "kgCO2e/kg CO₂e/m³"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

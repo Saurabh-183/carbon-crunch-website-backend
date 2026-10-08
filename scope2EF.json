@@ -1,0 +1,68 @@
+{
+  "scope": "Scope 2",
+  "Purchased": {
+    "Grid": {
+      "label": "Grid",
+      "Grid Electricity": {
+        "kWh": {
+          "emissionFactor": 0.72,
+          "unit": "kgCO2e/kWh"
+        }
+      },
+      "Purchased Electricity": {
+        "kWh": {
+          "emissionFactor": 0.72,
+          "unit": "kgCO2e/kWh"
+        }
+      },
+      "Electricity": {
+        "kWh": {
+          "emissionFactor": 0.72,
+          "unit": "kgCO2e/kWh"
+        }
+      },
+      "Grid Power": {
+        "kWh": {
+          "emissionFactor": 0.72,
+          "unit": "kgCO2e/kWh"
+        }
+      },
+      "Open Access": {
+        "kWh": {
+          "emissionFactor": 0.72,
+          "unit": "kgCO2e/kWh"
+        }
+      },
+      "Open Source": {
+        "kWh": {
+          "emissionFactor": 0.72,
+          "unit": "kgCO2e/kWh"
+        }
+      },
+      "Power from Grid": {
+        "kWh": {
+          "emissionFactor": 0.72,
+          "unit": "kgCO2e/kWh"
+        }
+      }
+    },
+    "Heat": {
+      "label": "Heat",
+      "Purchased Heat (Coal-based Boiler)": {
+        "MWh": {
+          "emissionFactor": 400,
+          "unit": "kgCO2e/MWh"
+        }
+      }
+    },
+    "Steam": {
+      "label": "Steam",
+      "Purchased Steam (Natural Gas Boiler)": {
+        "MWh": {
+          "emissionFactor": 230,
+          "unit": "kgCO2e/MWh"
+        }
+      }
+    }
+  }
+}
